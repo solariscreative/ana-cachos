@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  height: 100%
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  order: 1;
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  contain: content;
+}
+
+/* ! HEADER */
+
+#header {
+  width: 100%;
+  height: 100vh;
+  background-color: #1f1c1d;
+  background: url('../img/mobile/header-bg.jpg') center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+
+#header img {
+  width: 100%;
+}
+
+#header .header-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#header .header-top h2 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin: 0 1rem;
+}
+
+#header .header-top p {
+  margin: 0 1rem;
+  margin-top: 1rem;
+}
+
+#header .header-icons {
+  margin: 0 1rem;
+  margin-top: 2rem;
+}
+
+#header .header-icons h3,
+#header .header-icons p {
+  margin: .5rem 0;
+  text-transform: uppercase;
+  font-size: .6rem;
+}
+
+#header .header-icons h3 {
+  font-weight: 800;
+}
+
+#header .header-icons ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: top;
+  flex-direction: row;
+}
+
+#header .header-icons li {
+  display: inline-block;
+  margin-left: .2rem;
+}
+
+#header .header-icons li>a {
+  color: #fff;
+  text-decoration: none
+}
+
+#header .header-icons li:last-child {
+  margin-left: 0;
+}
+
+#header .header-icons img {
+  width: 50px;
+  padding-bottom: .1rem;
+  border-bottom: 1px solid #fff;
+}
+
+#header .service-by {
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+}
+
+#header .service-by img {
+  width: 90px;
+  padding: .5rem 0;
+}
+
+#header footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#header .footer {
+  width: 100%;
+  background-color: #000;
+  padding: 1rem 0;
+  position: relative;
+}
+
+#header .footer p {
+  font-weight: 600;
+  font-size: .8rem;
+  margin: 0 1rem;
+}
+
+#header .footer h6 {
+  position: absolute;
+  top: -70px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header .footer img {
+  width: 100px;
+}
+
+/* ! SERVICES AND COLORING */
+
+#perfil,
+#colorings,
+#services {
+  padding: 3rem 0;
+  width: 100%;
+  color: #706f6f;
+}
+
+#colorings .coloring,
+#colorings .colorings-title,
+#services .service,
+#services .services-title {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: row;
+  text-align: left;
+  margin: 0 1rem;
+}
+
+.desktop {
+  display: none;
+}
+
+#perfil .ana {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  margin: auto;
+}
+
+#perfil .text {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+#perfil .text p {
+  padding: 0 2rem;
+}
+
+#perfil .text h3 {
+  font-weight: 800;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+#perfil .text img {
+  width: 100%;
+}
+
+div#instagram.instagram a {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#instagram.instagram a>img {
+  margin-right: .5rem;
+}
+
+div#instagram.instagram a {
+  text-decoration: none;
+}
+
+.desktop img {
+  width: 300px;
+}
+
+#perfil .mobile>img {
+  margin-top: -50px;
+  width: 250px;
+}
+
+#perfil .instagram a>img {
+  width: 30px;
+}
+
+#colorings .colorings-title,
+#services .services-title {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+#colorings .colorings-title h3,
+#services .services-title h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#colorings .colorings-title p,
+#services .services-title p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+}
+
+#colorings .coloring>.icon,
+#services .service>.icon {
+  padding-right: 1rem;
+}
+
+#colorings .coloring>.icon img,
+#services .service>.icon img {
+  width: 50px;
+}
+
+#colorings .coloring>.card,
+#services .service>.card {
+  margin-top: 1.2rem;
+}
+
+#colorings .coloring h4,
+#services .service h4 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+
+#colorings .coloring h5,
+#colorings .coloring span,
+#services .service h5,
+#services .service span {
+  font-weight: 600;
+}
+
+#colorings .coloring h5,
+#services .service h5 {
+  font-size: .9rem;
+  margin: .5rem 0
+}
+
+#colorings .coloring+.coloring,
+#services .service+.service {
+  margin-top: 2rem;
+}
+
+#home-footer {
+  margin-top: 100px;
+  position: relative;
+  height: 100%;
+}
+
+#home-footer::after {
+  display: block;
+  position: absolute;
+  content: "";
+  background: rgb(209, 178, 202) url("../img/mobile/footer.png") no-repeat scroll center bottom / cover;
+  height: 120px;
+  width: 100%;
+  bottom: -20px;
+  z-index: 0;
+}
+
+.salao img {
+  width: 100%;
+}
+
+
+/* ! RESPONSIVE */
+
+@media only screen and (min-width: 768px) {
+  #header .header-icons ul {
+    justify-content: center;
+  }
+
+  #header .header-icons li {
+    width: 100px;
+  }
+
+  #perfil .mobile>img {
+    margin-top: -120px;
+    width: 350px;
+  }
+
+  #perfil .text {
+    padding-bottom: 5rem;
+  }
+
+  #home-footer::after {
+    background: rgb(209, 178, 202) url("../img/footer.png") no-repeat scroll center bottom / cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #header .header-icons img {
+    width: 90px;
+    padding-bottom: .1rem;
+  }
+
+  #perfil .ana {
+    padding: 6rem 1rem;
+    margin: auto;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .desktop img {
+    width: 400px;
+  }
+
+
+  .mobile {
+    display: none;
+  }
+
+  #perfil .text {
+    padding: 0 2rem;
+  }
+
+  #colorings .coloring>.icon img,
+  #services .service>.icon img {
+    width: 80px;
+  }
+
+  #colorings .coloring>.card,
+  #services .service>.card {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  #header {
+    background: url('../img/desktop/home.jpg') center center no-repeat;
+  }
+
+  #colorings,
+  #services {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #perfil .ana,
+  #colorings .coloring,
+  #colorings .colorings-title,
+  #services .service,
+  #services .services-title {
+    width: 700px;
+  }
+
+  .desktop img {
+    width: 300px;
+  }
+}
