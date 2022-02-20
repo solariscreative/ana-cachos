@@ -17,7 +17,7 @@
       <div class="header-icons">
         <ul>
           <li>
-            <a href="">
+            <a href="#services">
               <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/icons/header-icon1.png" alt="">
               <h3>Serviços</h3>
             </a>
