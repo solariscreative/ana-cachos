@@ -49,7 +49,8 @@
             Serviços <br>
             realizados por:
           </h4>
-			<a href="#perfil"><img src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/mobile/ana.png" alt="Ana Vieira"></a>
+          <a href="#perfil"><img src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/mobile/ana.png"
+              alt="Ana Vieira"></a>
           <p>Ana Paula Vieira</p>
         </div>
         <div class="footer">
