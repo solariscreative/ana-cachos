@@ -1,0 +1,39 @@
+:root {
+  --blue: #4a4596;
+  --rosa: rgb(209, 178, 202);
+}
+
+
+#services .services-title h3,
+#services .services-title p,
+#services .service h4 {
+  color: var(--blue);
+}
+
+#services {
+  position: relative;
+  background-color: #d6d3e5;
+}
+
+#colorings {
+  position: relative;
+  background-color: var(--rosa);
+}
+
+#perfil .text h3,
+div#instagram.instagram span,
+#colorings .colorings-title p,
+#colorings .coloring h4 {
+  color: var(--rosa);
+  background: -webkit-linear-gradient(left, #832780, #b74795);
+  background: -o-linear-gradient(right, #832780, #b74795);
+  background: -moz-linear-gradient(right, #832780, #b74795);
+  background: linear-gradient(to right, #832780, #b74795);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#perfil {
+  background-color: var(--rosa);
+  padding: 0;
+}
